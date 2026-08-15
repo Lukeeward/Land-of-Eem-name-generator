@@ -39,6 +39,19 @@ export const boggarts = {
     ],
     surnameSolo: ['Wrynch', 'Cheel', 'Skoff', 'Bramm'],
   },
+  flavor: {
+    homelands: [
+      "The Used T'Be Forest", "The Drippy Downs", "The Quagmash",
+      "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
+    ],
+    quirks: [
+      "carries on a family tradition of crafting and building",
+      "knows how to haggle to avoid getting swindled",
+      "mixes easily with other folk, picking up their customs",
+      "looks down on stuffy nobles and tycoons",
+      "never quite left the bog behind",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const firstName = buildFirstName(fragments, pick)
     const short = firstName

@@ -54,6 +54,19 @@ export const bugbears = {
       'the Wrestler', 'the Strong', 'Big Temper', 'the Cider-Brewer', 'the Bear-Hearted', 'the Rascal',
     ],
   },
+  flavor: {
+    homelands: [
+      "The Used T'Be Forest", "The Drippy Downs", "The Quagmash",
+      "River Country", "Fleabag County",
+    ],
+    quirks: [
+      "rarely thinks before acting",
+      "loves a good rasslin' match",
+      "hardier than most folk",
+      "has a famously short fuse",
+      "always seems to be hungry",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const firstName = buildFirstName(fragments, pick)
     const short = firstName

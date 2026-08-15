@@ -44,6 +44,16 @@ export const imps = {
     tailVowels: ['a', 'e', 'i', 'o', 'u'],
     tailCodas: ['r', 'n', 's', 'k', 'm', 'l', 'g'],
   },
+  flavor: {
+    homelands: ["The Used T'Be Forest", "The Drippy Downs", "The Quagmash", "The Underlands"],
+    quirks: [
+      "quick on their feet in a scrap",
+      "conjures disguises that undo with a sneeze",
+      "flies well enough to carry extra gear",
+      "mistrusted for keeping company with witches and fiends",
+      "loses their nerve around powerful fiends",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const root = buildRoot(fragments, pick)
     const short = capitalize(root + pick(fragments.nicknameSuffixes))

@@ -51,6 +51,19 @@ export const boggles = {
     ],
     surnameSolo: ['Shremp', 'Nok', 'Tak'],
   },
+  flavor: {
+    homelands: [
+      "The Used T'Be Forest", "The Drippy Downs", "The Quagmash",
+      "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
+    ],
+    quirks: [
+      "shares a special bond with other boggles",
+      "quick and slippery, hard to pin down",
+      "can fit into amazingly small spaces",
+      "avoids physical confrontation when possible",
+      "carries less than most thanks to a small frame",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const firstName = buildFirstName(fragments, pick)
     const short = firstName

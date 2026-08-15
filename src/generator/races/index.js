@@ -1,7 +1,6 @@
 import { boggarts } from './boggarts.js'
 import { boggles } from './boggles.js'
 import { bugbears } from './bugbears.js'
-import { example } from './example.js'
 import { felmogKnight } from './felmogKnight.js'
 import { gelatinousGoos } from './gelatinousGoos.js'
 import { goblins } from './goblins.js'
@@ -21,7 +20,6 @@ export const races = {
   boggarts,
   boggles,
   bugbears,
-  example,
   felmogKnight,
   gelatinousGoos,
   goblins,

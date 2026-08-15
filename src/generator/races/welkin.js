@@ -51,6 +51,16 @@ export const welkin = {
     ],
     surnameSolo: ['Chants', 'Warbles', 'Trills', 'Chirps', 'Coos', 'Flutters', 'Murmurs'],
   },
+  flavor: {
+    homelands: ["River Country", "Fleabag County", "Scalawag Strand"],
+    quirks: [
+      "communicates with birds through whistled birdsong",
+      "some sport a pelican-like bill, common in coastal regions",
+      "tires quickly in flight, much like a human running",
+      "can't carry much thanks to hollow bones",
+      "light frame doesn't hold up well in a fight",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const firstName = buildFirstName(fragments, pick)
     const short = firstName

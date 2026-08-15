@@ -50,6 +50,19 @@ export const goblins = {
     surnameSolo: ['Tandy', 'Chumps', 'Grabba', 'Gargoon'],
     titles: ['Captain', 'Taskmaster', 'King'],
   },
+  flavor: {
+    homelands: [
+      "The Used T'Be Forest", "The Drippy Downs", "The Quagmash",
+      "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
+    ],
+    quirks: [
+      "studies architecture and construction for fun",
+      "enrolled in a trade school young",
+      "sees clearly in the dark after ages underground",
+      "always wants the best clothes and finest food",
+      "never forgets an old grudge",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const firstName = buildFirstName(fragments, pick)
     const short = firstName

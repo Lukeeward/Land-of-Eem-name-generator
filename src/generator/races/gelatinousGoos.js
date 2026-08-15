@@ -44,6 +44,16 @@ export const gelatinousGoos = {
     tails: ['ey', 'mmy', 'nky', 'lee', 'ggle'],
     soloNames: ['Gooey', 'Squish', 'Squoop', 'Florp', 'Bloog', 'Gummy', 'Spunky', 'Wriggle', 'Loog', 'Chawlee', 'Moop'],
   },
+  flavor: {
+    homelands: ["The Underlands"],
+    quirks: [
+      "forages for gems and ore",
+      "unbothered by molten heat",
+      "squeezes through the tightest cracks",
+      "struggles to communicate without a translator nearby",
+      "gets by without any legs to speak of",
+    ],
+  },
   assemble: ({ fragments, pick }) => {
     const name = buildGooName(fragments, pick)
     return { full: name, short: name }

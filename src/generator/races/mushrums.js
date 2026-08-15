@@ -112,6 +112,16 @@ function buildExtraSegment(fragments, pick) {
 export const mushrums = {
   id: 'mushrums',
   label: 'Mushrums',
+  flavor: {
+    homelands: ["The Underlands", "The Quagmash"],
+    quirks: [
+      "splits into two when it matters most",
+      "shares a telepathic connection with fungi",
+      "sees clearly in the dark",
+      "has no real concept of frugality",
+      "takes things a little too literally",
+    ],
+  },
   fragments: {
     onsets: ['b', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 't', 'w', 'z'],
     rareOnsetClusters: ['fr', 'gr', 'dr', 'pl', 'tr'], 
