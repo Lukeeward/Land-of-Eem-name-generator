@@ -19,19 +19,88 @@
   font-size: 14px;
 }
 
+.controls select,
+.controls input,
+.controls button {
+  box-sizing: border-box;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.controls select,
+.controls input {
+  border: 2px solid var(--secondary);
+  border-radius: 6px;
+  padding: 0 9px;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.controls button {
+  border: none;
+  border-radius: 999px;
+  padding: 0 22px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  cursor: pointer;
+}
+
 .results {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  margin: 0;
+  border-top: 1px dotted var(--secondary);
+}
+
+.results li {
+  border-bottom: 1px dotted var(--secondary);
 }
 
 .results .full-name {
-  font-weight: 600;
+  font-weight: 700;
+  color: var(--text);
 }
 
 .results .short-name {
-  color: var(--text-h, #888);
+  color: var(--text-muted);
   margin-left: 6px;
+}
+
+.result-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 10px 4px;
+}
+
+.details-toggle {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--secondary);
+  background: none;
+  border: none;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.npc-card {
+  margin: 0 4px 10px;
+  padding: 10px 12px;
+  background: var(--secondary-bg);
+  border-top: 1px dotted var(--secondary);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.npc-card-label {
+  font-weight: 700;
+  color: var(--secondary);
+  margin-right: 4px;
 }

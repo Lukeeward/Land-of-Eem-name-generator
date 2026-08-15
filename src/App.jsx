@@ -1,15 +1,29 @@
 import { useState } from 'react'
 import { raceList, races } from './generator/races/index.js'
-import { generateNames } from './generator/engine.js'
+import { generateNpcCards } from './generator/npcCard.js'
 import './App.css'
 
 function App() {
   const [raceId, setRaceId] = useState(raceList[0].id)
   const [count, setCount] = useState(1)
   const [results, setResults] = useState([])
+  const [expanded, setExpanded] = useState(() => new Set())
 
   const handleGenerate = () => {
-    setResults(generateNames(races[raceId], count))
+    setResults(generateNpcCards(races[raceId], count))
+    setExpanded(new Set())
+  }
+
+  const toggleExpanded = (i) => {
+    setExpanded((prev) => {
+      const next = new Set(prev)
+      if (next.has(i)) {
+        next.delete(i)
+      } else {
+        next.add(i)
+      }
+      return next
+    })
   }
 
   return (
@@ -45,10 +59,40 @@ function App() {
       </div>
 
       <ul className="results">
-        {results.map((name, i) => (
+        {results.map((card, i) => (
           <li key={i}>
-            <span className="full-name">{name.full}</span>
-            <span className="short-name">({name.short})</span>
+            <div className="result-row">
+              <span className="full-name">{card.full}</span>
+              <span className="short-name">({card.short})</span>
+              <button
+                type="button"
+                className="details-toggle"
+                onClick={() => toggleExpanded(i)}
+              >
+                {expanded.has(i) ? 'Hide details' : 'Show details'}
+              </button>
+            </div>
+
+            {expanded.has(i) && (
+              <div className="npc-card">
+                {card.homeland && (
+                  <div>
+                    <span className="npc-card-label">Homeland</span> {card.homeland}
+                  </div>
+                )}
+                {card.quirk && (
+                  <div>
+                    <span className="npc-card-label">Quirk</span> {card.quirk}
+                  </div>
+                )}
+                <div>
+                  <span className="npc-card-label">Traits</span> {card.traits.join(', ')}
+                </div>
+                <div>
+                  <span className="npc-card-label">Motivation</span> {card.motivation}
+                </div>
+              </div>
+            )}
           </li>
         ))}
       </ul>
