@@ -10,8 +10,9 @@ function App() {
   const [expanded, setExpanded] = useState(() => new Set())
 
   const handleGenerate = () => {
-    setResults(generateNpcCards(races[raceId], count))
-    setExpanded(new Set())
+    const cards = generateNpcCards(races[raceId], count)
+    setResults(cards)
+    setExpanded(new Set(cards.map((_, i) => i)))
   }
 
   const toggleExpanded = (i) => {
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <section id="generator">
-      <h1>Land of Eem Name Generator</h1>
+      <h1>Land of Eem NPC Generator</h1>
 
       <div className="controls">
         <label>
@@ -91,11 +92,33 @@ function App() {
                 <div>
                   <span className="npc-card-label">Motivation</span> {card.motivation}
                 </div>
+                <div>
+                  <span className="npc-card-label">Speech</span> {card.speech}
+                </div>
               </div>
             )}
           </li>
         ))}
       </ul>
+
+      <footer className="app-footer">
+        <p>
+          Land of Eem is © Ben Costa &amp; James Parks. This is an unofficial fan-made
+          tool. Names and NPC details are procedurally generated and may not always be
+          fully book accurate.
+        </p>
+        <a
+          href="https://buymeacoffee.com/onwardluke"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+            height="42"
+          />
+        </a>
+      </footer>
     </section>
   )
 }

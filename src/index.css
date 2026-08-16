@@ -56,6 +56,11 @@
   #social .button-icon {
     filter: invert(1) brightness(2);
   }
+
+  #root::before,
+  #root::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpolygon points='10,0 20,10 10,20 0,10' fill='none' stroke='%234dc3f0' stroke-width='2'/%3E%3C/svg%3E");
+  }
 }
 
 body {
@@ -63,15 +68,36 @@ body {
 }
 
 #root {
+  position: relative;
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+}
+
+#root::before,
+#root::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 14px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpolygon points='10,0 20,10 10,20 0,10' fill='none' stroke='%2300adee' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: repeat-y;
+  background-size: 14px 14px;
+  pointer-events: none;
+}
+
+#root::before {
+  left: 0;
+}
+
+#root::after {
+  right: 0;
 }
 
 h1,
