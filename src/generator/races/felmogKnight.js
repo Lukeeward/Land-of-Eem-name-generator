@@ -10,7 +10,7 @@ export const felmogKnight = {
   },
   flavor: {
     homelands: [
-      "The northern realm of Felmog", "Kreeth on the Black Coast",
+      "Felmog", "Kreeth on the Black Coast",
       "Khet in Rengwere", "Maax in the Lonely Hills",
     ],
     quirks: [
