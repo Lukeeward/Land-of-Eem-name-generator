@@ -33,7 +33,7 @@ function App() {
 
       <div className="controls">
         <label>
-          Race
+          Folk
           <select value={raceId} onChange={(e) => setRaceId(e.target.value)}>
             {raceList.map((race) => (
               <option key={race.id} value={race.id}>
