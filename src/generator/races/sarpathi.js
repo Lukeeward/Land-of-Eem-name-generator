@@ -81,11 +81,11 @@ export const sarpathi = {
   flavor: {
     homelands: ["The Drippy Downs", "The Underlands"],
     quirks: [
-      "serves the Cult of Ehk above all else",
-      "carries out rites in hidden spawning pits",
-      "reveres the Hierophants as living clergy",
-      "wary of outsiders who stray too close to sacred ground",
-      "steeped in old blood magic and older grudges",
+      "Serves the Cult of Ehk above all else",
+      "Sheds its skin and leaves flakes of scales in its wake",
+      "Hisses at the first sign of danger, and strikes without warning",
+      "Wary of outsiders",
+      "Holds a grudge for a long long time",
     ],
   },
 }

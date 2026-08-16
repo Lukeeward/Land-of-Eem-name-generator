@@ -65,14 +65,14 @@ export const shryms = {
   flavor: {
     homelands: [
       "The Used T'Be Forest", "The Drippy Downs", "The Quagmash",
-      "River Country", "Fleabag County", "Scalawag Strand",
+      "River Country", "Fleabag County", "Scalawag Strand", "Shrym",
     ],
     quirks: [
-      "learned mechanics and engineering young",
-      "holds one particular piece of gear very dear",
-      "resistant to poison after ages of conflict with desert serpents",
-      "carries a thousand-year-old fear of snakes",
-      "struggles to see anything at a distance",
+      "Takes things apart and forgets how to put them back together",
+      "Holds one particular piece of gear very dear",
+      "Obsessively collects shiny things, but never uses them",
+      "Deeply afraid of snakes",
+      "Struggles to see anything at a distance",
     ],
   },
   fragments: {

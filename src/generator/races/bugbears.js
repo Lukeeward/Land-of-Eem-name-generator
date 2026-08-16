@@ -60,11 +60,11 @@ export const bugbears = {
       "River Country", "Fleabag County",
     ],
     quirks: [
-      "rarely thinks before acting",
-      "loves a good rasslin' match",
-      "hardier than most folk",
-      "has a famously short fuse",
-      "always seems to be hungry",
+      "Rarely thinks before acting",
+      "Loves a good rasslin' match, and will challenge anyone to one",
+      "Huge appetite, and will eat anything in sight",
+      "Intimidating to strangers, but incredibly soft-hearted to friends",
+      "Laughs incredibly loud, and often at inappropriate times",
     ],
   },
   assemble: ({ fragments, pick }) => {

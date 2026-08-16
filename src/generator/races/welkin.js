@@ -54,11 +54,11 @@ export const welkin = {
   flavor: {
     homelands: ["River Country", "Fleabag County", "Scalawag Strand"],
     quirks: [
-      "communicates with birds through whistled birdsong",
-      "some sport a pelican-like bill, common in coastal regions",
-      "tires quickly in flight, much like a human running",
-      "can't carry much thanks to hollow bones",
-      "light frame doesn't hold up well in a fight",
+      "Whistles constantly, even in sleep",
+      "Poor navigator, often gets lost in the sky",
+      "Afraid of heights, despite being a birdfolk",
+      "Caws loudly at the first sign of danger",
+      "Pecks at shiny objects, often to the detriment of their own safety",
     ],
   },
   assemble: ({ fragments, pick }) => {

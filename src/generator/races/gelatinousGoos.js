@@ -47,11 +47,11 @@ export const gelatinousGoos = {
   flavor: {
     homelands: ["The Underlands"],
     quirks: [
-      "forages for gems and ore",
-      "unbothered by molten heat",
-      "squeezes through the tightest cracks",
-      "struggles to communicate without a translator nearby",
-      "gets by without any legs to speak of",
+      "Quick to anger if mistake is made in their name",
+      "Always trying to crack jokes, even if they aren't funny",
+      "Smells like sour milk, but insists it's a good smell",
+      "Will barter anything for a shiny object, even if they don't need it",
+      "Talks about their work constantly and expects others to be interested",
     ],
   },
   assemble: ({ fragments, pick }) => {

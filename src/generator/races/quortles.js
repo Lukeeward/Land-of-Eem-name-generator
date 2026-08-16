@@ -60,11 +60,11 @@ export const quortles = {
   flavor: {
     homelands: ["The Drippy Downs", "The Quagmash", "River Country", "Scalawag Strand"],
     quirks: [
-      "picked up alchemy at a young age",
-      "perfectly at home underwater",
-      "tougher than that shell looks",
-      "avoids physical confrontation on principle",
-      "not built for sprinting",
+      "Picked up alchemy at a young age and is obessed with it",
+      "Prefers to be alone, and is often found in the company of their own thoughts",
+      "Tougher than they look, and has a reputation for being a fierce fighter",
+      "Avoids physical confrontation on principle",
+      "Hates to be touched, and will lash out if someone tries",
     ],
   },
   assemble: ({ fragments, pick }) => {

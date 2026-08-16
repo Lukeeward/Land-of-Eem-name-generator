@@ -14,12 +14,12 @@ export const felmogKnight = {
       "Khet in Rengwere", "Maax in the Lonely Hills",
     ],
     quirks: [
-      "will parley if there's treasure or gain in it",
-      "has no patience for insolence",
-      "would rather take a relic as tribute than fight",
-      "hunts knight-errants and show-offs first",
-      "a ruthlessly calculating tactician",
-      "yields with grim honor, or betrays and flees",
+      "Argumentative and quick to anger, but loyal to their friends",
+      "Distinct lack of patience",
+      "Deeply interested in the history of their homeland, and will talk about it at length",
+      "A show-off, and will often boast about their accomplishments",
+      "Constantly tired, and will often fall asleep at the most inopportune times",
+      "Yeilds at the first sign of danger",
     ],
   },
   assemble: ({ fragments, pick }) => {

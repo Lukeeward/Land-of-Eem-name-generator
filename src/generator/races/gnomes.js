@@ -77,12 +77,12 @@ export const gnomes = {
   flavor: {
     homelands: ["The Drippy Downs", "The Quagmash", "River Country", "The Dingledell"],
     quirks: [
-      "keeps a small animal companion, like a songbird or bunny",
-      "can converse with critters and insects",
-      "has a famously strong will",
-      "will never run from a fight before others do",
-      "feels physically ill when telling a lie",
-      "wears a hat color that says a lot about who they are",
+      "Will go out of their way to help a stranger, even at personal cost",
+      "Argues with themselves out loud",
+      "Prefers talking to animals over other folk",
+      "Big-headed and boastful",
+      "Feels physically ill when telling a lie",
+      "Painfully slow at making decisions",
     ],
   },
   assemble: ({ fragments, pick }) => {

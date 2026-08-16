@@ -57,11 +57,11 @@ export const boggles = {
       "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
     ],
     quirks: [
-      "shares a special bond with other boggles",
-      "quick and slippery, hard to pin down",
-      "can fit into amazingly small spaces",
-      "avoids physical confrontation when possible",
-      "carries less than most thanks to a small frame",
+      "Loves other boggles, and will go out of their way to help them",
+      "Devious and mischievous, and loves to play pranks on others",
+      "Prefers to sit out of sight and watch the world go by",
+      "Afraid of the dark, and will avoid it at all costs",
+      "Bored easily, and will often wander off to find something more interesting",
     ],
   },
   assemble: ({ fragments, pick }) => {

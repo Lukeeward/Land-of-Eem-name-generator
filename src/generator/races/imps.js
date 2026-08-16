@@ -47,11 +47,11 @@ export const imps = {
   flavor: {
     homelands: ["The Used T'Be Forest", "The Drippy Downs", "The Quagmash", "The Underlands"],
     quirks: [
-      "quick on their feet in a scrap",
-      "conjures disguises that undo with a sneeze",
-      "flies well enough to carry extra gear",
-      "mistrusted for keeping company with witches and fiends",
-      "loses their nerve around powerful fiends",
+      "Uninterested in the affairs of others, and keeps to themselves",
+      "Conjures disguises that undo with a sneeze",
+      "Causes mischief for the sake of mischief, and laughs at the results",
+      "Mistrusted for keeping company with witches and fiends",
+      "Loses their nerve around strangers",
     ],
   },
   assemble: ({ fragments, pick }) => {

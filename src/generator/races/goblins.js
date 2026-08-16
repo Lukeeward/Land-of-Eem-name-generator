@@ -56,11 +56,11 @@ export const goblins = {
       "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
     ],
     quirks: [
-      "studies architecture and construction for fun",
-      "enrolled in a trade school young",
-      "sees clearly in the dark after ages underground",
-      "always wants the best clothes and finest food",
-      "never forgets an old grudge",
+      "Studies architecture and construction for, will talk about it endlessly",
+      "Dislikes sand, and will avoid it at all costs",
+      "Prefers to be underground, and dislikes the sun",
+      "Unrelentingly envious of other folk, and will scheme to get ahead",
+      "Always happy to lend a hand, but expects something in return",
     ],
   },
   assemble: ({ fragments, pick }) => {

@@ -50,11 +50,11 @@ export const skeletons = {
   flavor: {
     homelands: ["The Underlands"],
     quirks: [
-      "yearns to tie up the loose ends of a forgotten past",
-      "has no need to eat, though some insist on the ritual anyway",
-      "tougher than bone has any right to be",
-      "feared and disliked by common folk on sight",
-      "more fragile than they let on",
+      "Yearns to tie up the loose ends of a forgotten past",
+      "Has no need to eat, though insists on doing so",
+      "Collects bones and bone fragments, and has a favorite",
+      "Feared and disliked by common folk on sight",
+      "More fragile than they let on",
     ],
   },
   fragments: {

@@ -45,11 +45,11 @@ export const boggarts = {
       "River Country", "Fleabag County", "The Underlands", "Scalawag Strand",
     ],
     quirks: [
-      "carries on a family tradition of crafting and building",
-      "knows how to haggle to avoid getting swindled",
-      "mixes easily with other folk, picking up their customs",
-      "looks down on stuffy nobles and tycoons",
-      "never quite left the bog behind",
+      "Constantly whittling, and will whittle anything they can get their hands on",
+      "Will haggle over anything",
+      "Lies constantly, and will lie about anything",
+      "lJudges others quickly, and will often jump to conclusions",
+      "A big hugger, and will hug anyone they meet",
     ],
   },
   assemble: ({ fragments, pick }) => {

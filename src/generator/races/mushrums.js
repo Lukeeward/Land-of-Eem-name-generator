@@ -115,11 +115,11 @@ export const mushrums = {
   flavor: {
     homelands: ["The Underlands", "The Quagmash"],
     quirks: [
-      "splits into two when it matters most",
-      "shares a telepathic connection with fungi",
-      "sees clearly in the dark",
-      "has no real concept of frugality",
-      "takes things a little too literally",
+      "Shakes spores into the air when excited",
+      "Excessively curious, and often gets into trouble",
+      "Morally good to a fault, and often taken advantage of",
+      "Has no real concept of frugality",
+      "Takes things a little too literally",
     ],
   },
   fragments: {
